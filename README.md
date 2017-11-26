@@ -54,3 +54,17 @@ In order to create a confidence classification, without rely on the properties p
 The transactions that have a confidence score bellow 25% are discarded in the test valuation and classified as `Unknown similarity`, above 25% score they are classified as following: 
 
 **Low confidence** (25-50%), **Medium confidence** (50-75%) and **High confidence** (75-100%).
+
+### Codes (notebooks)
+ 
+* **data_engineering.ipynb** : prepare and encode the raw data.
+
+* **parameters_tuning.ipynb** : use Scikit-optimize random search ot tuning the optimal parameters to XGBoost model.
+
+* **train_model.ipynb** : train the XGBoost and evaluate the error over the test dataset. 
+
+
+
+** due to confidentionality of this project the data source **is not** available.  
+
+Hope you find useful information :)
